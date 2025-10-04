@@ -13,6 +13,11 @@ export default function PhotoGallery({ onNext }) {
     const photos = [
         { id: 1, src: "/images/1.jpg" },
         { id: 2, src: "/images/2.jpg" },
+        { id: 3, src: "/images/3.jpg" },
+        { id: 4, src: "/images/4.jpg" },
+        { id: 5, src: "/images/5.jpg" },
+        { id: 6, src: "/images/6.jpg" },
+        
     ]
 
     return (
@@ -43,7 +48,7 @@ export default function PhotoGallery({ onNext }) {
                 <h1 className="text-4xl md:text-6xl py-1 md:py-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 mb-6">
                 Moments with You 
                 </h1>
-                <p className="text-xl text-purple-300">Beautiful moments with Madam Jii 📸</p>
+                
             </motion.div>
 
             {/* Cube Gallery */}

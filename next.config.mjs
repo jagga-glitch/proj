@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  
   output: 'export',
 };
 
-module.exports = nextConfig;
+// Use ES Module syntax for .mjs files
+export default nextConfig;
